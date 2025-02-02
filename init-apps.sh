@@ -90,8 +90,8 @@ else
   echo "Error: La instalación de Cursor falló."
 fi
 
-echo "Instalando Bartender 5..."
-if brew install --cask bartender; then
+echo "Instalando Ice Menu Bar"
+if brew install --cask jordanbaird-ice then
   echo "Bartender 5 instalado correctamente."
 else
   echo "Error: La instalación de Bartender 5 falló."
