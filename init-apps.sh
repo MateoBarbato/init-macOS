@@ -120,5 +120,12 @@ else
   echo "Error: La instalación de Stats falló."
 fi
 
+echo "Instalando Clipbook..."
+if brew install --cask clipbook; then
+  echo "Clipbook instalado correctamente."
+else
+  echo "Error: La instalación de Clipbook falló."
+fi
+
 
 echo "Instalación/configuración de aplicaciones completada." 
